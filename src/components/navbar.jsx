@@ -4,10 +4,7 @@ import { ShoppingCart, Heart } from "phosphor-react";
 const navbar = () => {
   return (
     <>
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light"
-        style={{ backgroundColor: "#e3f2fd" }}
-      >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
           <Link to="/">Laz Mobiles</Link>
         </a>
@@ -37,20 +34,6 @@ const navbar = () => {
           </form>
         </div>
       </nav>
-
-      {/* <div className="navbar">
-        <div className="links">
-          <span>Laz Mobiles</span>
-          <Link to="/"> Shop More</Link>
-          <Link to="/wishlist">
-            {" "}
-            <Heart size={32} />{" "}
-          </Link>
-          <Link to="/cart">
-            <ShoppingCart size={32} />
-          </Link>
-        </div>
-      </div> */}
     </>
   );
 };

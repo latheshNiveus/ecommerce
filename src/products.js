@@ -36,13 +36,13 @@ export const PRODUCTS = [
   {
     id: 5,
     productName: "SAMSUNG Galaxy F04 ",
-    price: 8500,
+    price: 18500,
     productImage: product5,
   },
   {
     id: 6,
     productName: "S23",
-    price: 68.0,
+    price: 100000.0,
     productImage: product6,
   },
   {
